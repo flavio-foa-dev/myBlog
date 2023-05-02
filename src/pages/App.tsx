@@ -1,5 +1,7 @@
+import Footer from "../components/Footer/Footer";
 import Hero from "../components/Hero/Hero";
-import Menu from "../components/Menu";
+import ListCards from "../components/ListCards/ListCards";
+import Menu from "../components/Menu/Menu";
 
 function App() {
   return (
@@ -8,7 +10,9 @@ function App() {
       <Menu />
       <main>
         <Hero/>
+        <ListCards />
       </main>
+      <Footer />
     </>
   )
 }
