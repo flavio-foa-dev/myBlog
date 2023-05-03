@@ -3,6 +3,8 @@ import Menu from "../components/Menu/Menu";
 ;
 import fotoCapa from '../assets/fotoCapa.png';
 import AboutHero from "../components/AboutHero/AboutHero";
+import SobreMim from "../components/SobreMim/SobreMim";
+import Footer from "../components/Footer/Footer";
 
 export default function Sobre() {
   return (
@@ -13,6 +15,8 @@ export default function Sobre() {
         subHero={fotoCapa}
         titulo="Sobre mim"
       />
+      <SobreMim/>
+      <Footer />
     </div>
   )
 }

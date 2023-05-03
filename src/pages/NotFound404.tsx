@@ -1,5 +1,8 @@
-export default function NotFound404() {
+import NotFound404 from "../components/NotFound404/NotFound404"
+export default function NotFound() {
   return (
-    <div>NotFound404</div>
+    <>
+      <NotFound404 />
+    </>
   )
 }
